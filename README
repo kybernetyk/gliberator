@@ -4,14 +4,15 @@ A little script to make G+ posts readable again
 It will remove the sluggish JavaScript interface and extract the HTML-only posts
 Then it will invoke 'open' on the extracted HTML to open it in the default browser
 
-[!!!] Note: I tested this only under OS X. 'open' is probably not present under Linux. 
-You'll have to adjust the 2nd system() invocation to suit your OS.
+[!!!] Note: I tested this only under OS X. The 'open' command is probably not 
+present under Linux. You'll have to adjust the 1st system() invocation 
+to suit your OS.
 
 Syntax:
-	gliberator.py <url of G+ post>
+  gliberator.py <url of G+ post>
 
 Example:
-	./gliberator.py https://plus.google.com/101960720994009339267/posts/hoJdanihKwb
+  ./gliberator.py https://plus.google.com/101960720994009339267/posts/hoJdanihKwb
 
 
 (c) Leon Szpilewski, Licensed under GPL3
