@@ -22,10 +22,10 @@ data = str(urllib2.urlopen(url).read())
 start = data.find('class="wm VC">') + len('class="wv VC">')
 end = data.find("</div>", start)
 
-f = open("output.html", "wt")
+f = open("gliberator_output.html", "wt")
 f.write(str(data[start:end]))
 f.close()
 
-os.system('open output.html')
+os.system('open gliberator_output.html')
 
-os.system('rm output.html')
+os.system('rm gliberator_output.html')
