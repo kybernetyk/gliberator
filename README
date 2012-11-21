@@ -10,5 +10,9 @@ Syntax:
 Example:
   ./gliberator.py https://plus.google.com/101960720994009339267/posts/hoJdanihKwb
 
+--
+glibber and glibber.py are scripts that will strip html (using pandoc) and pipe the post through less
+for glibber to work glibber.sh has to be in $PATH
+
 
 (c) Leon Szpilewski, Licensed under GPL3
